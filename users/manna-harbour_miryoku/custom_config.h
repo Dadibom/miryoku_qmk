@@ -5,3 +5,8 @@
 
 #pragma once
 
+#define MIRYOKU_LAYER_TAP \
+KC_ESC,            KC_Q,              KC_W,              KC_E,              KC_R,              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         \
+KC_LSFT,           KC_A,              KC_S,              KC_D,              KC_F,              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         \
+KC_LALT,           KC_Z,              KC_X,              KC_C,              KC_V,              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),       \
+U_NP,              U_NP,              KC_LCTL,           KC_SPC,            KC_TAB,            DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              U_NP,                    U_NP
