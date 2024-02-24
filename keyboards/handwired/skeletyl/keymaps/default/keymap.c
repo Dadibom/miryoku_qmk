@@ -18,8 +18,8 @@ void keyboard_pre_init_user(void) {
 }
 
 // define led pins constants
-#define RX D17
-#define TX D24
+#define RX 17
+#define TX 30
 
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
