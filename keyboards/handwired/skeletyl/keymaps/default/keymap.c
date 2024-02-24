@@ -11,3 +11,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                     KC_ESC, KC_SPACE, KC_TAB,  KC_ENT,KC_BSPC, KC_DEL
     )
 };
+
+void keyboard_pre_init_user(void) {
+    setPinOutput(B0);  // initialize B0 for LED
+    setPinOutput(B1);  // initialize B1 for LED
+}
+
+// define led pins constants
+#define RX D17
+#define TX D24
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+        case TAP:
+            writePinHigh(RX);
+            writePinLow(TX);
+            break;
+        case EXTRA:
+            writePinHigh(TX);
+            writePinLow(RX);
+            break;
+        default:
+            writePinLow(RX);
+            writePinLow(TX);
+            break;
+    }
+}
