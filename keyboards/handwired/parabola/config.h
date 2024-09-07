@@ -21,8 +21,4 @@
 
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2500
-
-#define USE_I2C
-#define I2C_DRIVER I2CD1
-#define I2C1_SCL_PIN GP1  // Define the pins for SCL
-#define I2C1_SDA_PIN GP0  // Define the pins for SDA
+#define SOFT_SERIAL_PIN GP0
