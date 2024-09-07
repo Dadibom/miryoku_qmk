@@ -6,7 +6,7 @@
 #define XXX KC_NO
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT_split_5x5(
+    [0] = LAYOUT_ortho_5x10(
         XXX,    XXX,    XXX,    XXX,    XXX,        XXX,   XXX,    XXX,    XXX,    XXX,
         KC_Q,   KC_W,   KC_F,   KC_P,   KC_B,       KC_J,  KC_L,   KC_U,   KC_Y,   KC_QUOT,
         KC_A,   KC_R,   KC_S,   KC_T,   KC_G,       KC_M,  KC_N,   KC_E,   KC_I,   KC_O,
