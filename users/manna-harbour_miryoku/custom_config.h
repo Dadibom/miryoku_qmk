@@ -18,6 +18,7 @@ MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(GB,     "GB")
 
+#define MIRYOKU_LAYERMAPPING_GB MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYERMAPPING_TAP(\
 K00,   K01,   K02,   K03,   K04,                 K05,   K06,   K07,   K08,   K09,\
