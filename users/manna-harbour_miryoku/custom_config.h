@@ -59,5 +59,5 @@ DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_
 DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),\
 KC_Z,                    KC_X,                    KC_A,                    KC_S,                    DF(U_BASE),         DF(U_BASE),              KC_LEFT,                 KC_DOWN,                 KC_UP,                   KC_RIGHT,\
 DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),\
-DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),\
+DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),         DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE),              DF(U_BASE)\
 )
